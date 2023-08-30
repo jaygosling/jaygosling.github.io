@@ -3,6 +3,7 @@
     "event_id": 1,
     "day": 4,
     "datetime": "2023-08-31T18:30:00",
+    "time": "18:30",
     "artist": "Cala Vento",
     "stage": "sunrise"
   },
@@ -10,6 +11,7 @@
     "event_id": 2,
     "day": 4,
     "datetime": "2023-08-31T20:15:00",
+    "time": "20:15",
     "artist": "Siouxsie",
     "stage": "sunrise"
   },
@@ -17,6 +19,7 @@
     "event_id": 3,
     "day": 4,
     "datetime": "2023-08-31T22:35:00",
+    "time": "22:35",
     "artist": "Arcade Fire",
     "stage": "sunrise"
   },
@@ -24,6 +27,7 @@
     "event_id": 4,
     "day": 4,
     "datetime": "2023-09-01T01:40:00",
+    "time": "01:40",
     "artist": "Foals",
     "stage": "sunrise"
   },
@@ -31,6 +35,7 @@
     "event_id": 5,
     "day": 4,
     "datetime": "2023-08-31T17:45:00",
+    "time": "17:45",
     "artist": "Juicy Bae",
     "stage": "victoria"
   },
@@ -38,6 +43,7 @@
     "event_id": 6,
     "day": 4,
     "datetime": "2023-08-31T19:20:00",
+    "time": "19:20",
     "artist": "Cupido",
     "stage": "victoria"
   },
@@ -45,6 +51,7 @@
     "event_id": 7,
     "day": 4,
     "datetime": "2023-08-31T21:25:00",
+    "time": "21:25",
     "artist": "Baxter Dury",
     "stage": "victoria"
   },
@@ -52,6 +59,7 @@
     "event_id": 8,
     "day": 4,
     "datetime": "2023-09-01T00:15:00",
+    "time": "00:15",
     "artist": "Idles",
     "stage": "victoria"
   },
@@ -59,6 +67,7 @@
     "event_id": 9,
     "day": 4,
     "datetime": "2023-09-01T03:05:00",
+    "time": "03:05",
     "artist": "Moderat",
     "stage": "victoria"
   },
@@ -66,6 +75,7 @@
     "event_id": 10,
     "day": 4,
     "datetime": "2023-08-31T17:30:00",
+    "time": "17:30",
     "artist": "Vera Fauna",
     "stage": "sunset"
   },
@@ -73,6 +83,7 @@
     "event_id": 11,
     "day": 4,
     "datetime": "2023-08-31T19:20:00",
+    "time": "19:20",
     "artist": "Tamino",
     "stage": "sunset"
   },
@@ -80,6 +91,7 @@
     "event_id": 12,
     "day": 4,
     "datetime": "2023-08-31T21:20:00",
+    "time": "21:20",
     "artist": "Amaia",
     "stage": "sunset"
   },
@@ -87,6 +99,7 @@
     "event_id": 13,
     "day": 4,
     "datetime": "2023-09-01T00:25:00",
+    "time": "00:25",
     "artist": "Pabllo Vittar",
     "stage": "sunset"
   },
@@ -94,6 +107,7 @@
     "event_id": 14,
     "day": 4,
     "datetime": "2023-09-01T03:15:00",
+    "time": "03:15",
     "artist": "VVV (Trippin' You)",
     "stage": "sunset"
   },
@@ -101,6 +115,7 @@
     "event_id": 15,
     "day": 4,
     "datetime": "2023-08-31T17:00:00",
+    "time": "17:00",
     "artist": "Buganvilia",
     "stage": "caleta"
   },
@@ -108,6 +123,7 @@
     "event_id": 16,
     "day": 4,
     "datetime": "2023-08-31T19:00:00",
+    "time": "19:00",
     "artist": "Budino",
     "stage": "caleta"
   },
@@ -115,6 +131,7 @@
     "event_id": 17,
     "day": 4,
     "datetime": "2023-08-31T21:15:00",
+    "time": "21:15",
     "artist": "James Holden (Live)",
     "stage": "caleta"
   },
@@ -122,6 +139,7 @@
     "event_id": 18,
     "day": 4,
     "datetime": "2023-08-31T22:30:00",
+    "time": "22:30",
     "artist": "Nicola Cruz (DJ Set)",
     "stage": "caleta"
   },
@@ -129,6 +147,7 @@
     "event_id": 19,
     "day": 4,
     "datetime": "2023-09-01T01:00:00",
+    "time": "01:00",
     "artist": "Prosumer",
     "stage": "caleta"
   },
@@ -136,6 +155,7 @@
     "event_id": 20,
     "day": 4,
     "datetime": "2023-09-01T03:30:00",
+    "time": "03:30",
     "artist": "Cormac",
     "stage": "caleta"
   },
@@ -143,6 +163,7 @@
     "event_id": 21,
     "day": 5,
     "datetime": "2023-09-01T18:25:00",
+    "time": "18:25",
     "artist": "Kevin Kaarl",
     "stage": "sunrise"
   },
@@ -150,6 +171,7 @@
     "event_id": 22,
     "day": 5,
     "datetime": "2023-09-01T20:40:00",
+    "time": "20:40",
     "artist": "Amyl & The Sniffers",
     "stage": "sunrise"
   },
@@ -157,6 +179,7 @@
     "event_id": 23,
     "day": 5,
     "datetime": "2023-09-01T23:25:00",
+    "time": "23:25",
     "artist": "The Strokes",
     "stage": "sunrise"
   },
@@ -164,6 +187,7 @@
     "event_id": 24,
     "day": 5,
     "datetime": "2023-09-02T02:30:00",
+    "time": "02:30",
     "artist": "Underworld",
     "stage": "sunrise"
   },
@@ -171,6 +195,7 @@
     "event_id": 25,
     "day": 5,
     "datetime": "2023-09-01T17:40:00",
+    "time": "17:40",
     "artist": "Charlie Cunningham",
     "stage": "victoria"
   },
@@ -178,13 +203,15 @@
     "event_id": 26,
     "day": 5,
     "datetime": "2023-09-01T19:30:00",
-    "artist": "Cariño",
+    "time": "19:30",
+    "artist": "Cari�o",
     "stage": "victoria"
   },
   {
     "event_id": 27,
     "day": 5,
     "datetime": "2023-09-01T22:00:00",
+    "time": "22:00",
     "artist": "Lori Meyers",
     "stage": "victoria"
   },
@@ -192,6 +219,7 @@
     "event_id": 28,
     "day": 5,
     "datetime": "2023-09-02T01:05:00",
+    "time": "01:05",
     "artist": "M83",
     "stage": "victoria"
   },
@@ -199,6 +227,7 @@
     "event_id": 29,
     "day": 5,
     "datetime": "2023-09-02T03:50:00",
+    "time": "03:50",
     "artist": "Acid Arab (Live)",
     "stage": "victoria"
   },
@@ -206,6 +235,7 @@
     "event_id": 30,
     "day": 5,
     "datetime": "2023-09-01T17:30:00",
+    "time": "17:30",
     "artist": "Compro Oro",
     "stage": "sunset"
   },
@@ -213,6 +243,7 @@
     "event_id": 31,
     "day": 5,
     "datetime": "2023-09-01T19:45:00",
+    "time": "19:45",
     "artist": "Junior Boys",
     "stage": "sunset"
   },
@@ -220,6 +251,7 @@
     "event_id": 32,
     "day": 5,
     "datetime": "2023-09-01T22:15:00",
+    "time": "22:15",
     "artist": "Nu Genea (Live Band)",
     "stage": "sunset"
   },
@@ -227,6 +259,7 @@
     "event_id": 33,
     "day": 5,
     "datetime": "2023-09-02T01:15:00",
+    "time": "01:15",
     "artist": "Delaporte",
     "stage": "sunset"
   },
@@ -234,6 +267,7 @@
     "event_id": 34,
     "day": 5,
     "datetime": "2023-09-02T04:00:00",
+    "time": "04:00",
     "artist": "Playback Maracas",
     "stage": "sunset"
   },
@@ -241,6 +275,7 @@
     "event_id": 35,
     "day": 5,
     "datetime": "2023-09-01T17:00:00",
+    "time": "17:00",
     "artist": "Toppanga Kiddo",
     "stage": "caleta"
   },
@@ -248,6 +283,7 @@
     "event_id": 36,
     "day": 5,
     "datetime": "2023-09-01T19:30:00",
+    "time": "19:30",
     "artist": "Yung Prado",
     "stage": "caleta"
   },
@@ -255,6 +291,7 @@
     "event_id": 37,
     "day": 5,
     "datetime": "2023-09-01T22:00:00",
+    "time": "22:00",
     "artist": "Ouri (Live)",
     "stage": "caleta"
   },
@@ -262,6 +299,7 @@
     "event_id": 38,
     "day": 5,
     "datetime": "2023-09-01T23:00:00",
+    "time": "23:00",
     "artist": "Saorse",
     "stage": "caleta"
   },
@@ -269,6 +307,7 @@
     "event_id": 39,
     "day": 5,
     "datetime": "2023-09-02T01:30:00",
+    "time": "01:30",
     "artist": "Call Super",
     "stage": "caleta"
   },
@@ -276,6 +315,7 @@
     "event_id": 40,
     "day": 5,
     "datetime": "2023-09-02T04:00:00",
+    "time": "04:00",
     "artist": "Palms Trax",
     "stage": "caleta"
   },
@@ -283,6 +323,7 @@
     "event_id": 41,
     "day": 6,
     "datetime": "2023-09-02T18:25:00",
+    "time": "18:25",
     "artist": "La Plazuela",
     "stage": "sunrise"
   },
@@ -290,6 +331,7 @@
     "event_id": 42,
     "day": 6,
     "datetime": "2023-09-02T20:40:00",
+    "time": "20:40",
     "artist": "Duki",
     "stage": "sunrise"
   },
@@ -297,6 +339,7 @@
     "event_id": 43,
     "day": 6,
     "datetime": "2023-09-02T23:25:00",
+    "time": "23:25",
     "artist": "Florence + The Machine",
     "stage": "sunrise"
   },
@@ -304,6 +347,7 @@
     "event_id": 44,
     "day": 6,
     "datetime": "2023-09-03T02:30:00",
+    "time": "02:30",
     "artist": "The Blaze",
     "stage": "sunrise"
   },
@@ -311,20 +355,23 @@
     "event_id": 45,
     "day": 6,
     "datetime": "2023-09-02T17:40:00",
-    "artist": "Niños Luchando",
+    "time": "17:40",
+    "artist": "Ni�os Luchando",
     "stage": "victoria"
   },
   {
     "event_id": 46,
     "day": 6,
     "datetime": "2023-09-02T19:30:00",
-    "artist": "José González",
+    "time": "19:30",
+    "artist": "Jos� Gonz�lez",
     "stage": "victoria"
   },
   {
     "event_id": 47,
     "day": 6,
     "datetime": "2023-09-02T22:05:00",
+    "time": "22:05",
     "artist": "Metronomy",
     "stage": "victoria"
   },
@@ -332,6 +379,7 @@
     "event_id": 48,
     "day": 6,
     "datetime": "2023-09-03T01:05:00",
+    "time": "01:05",
     "artist": "Belle & Sebastian",
     "stage": "victoria"
   },
@@ -339,6 +387,7 @@
     "event_id": 49,
     "day": 6,
     "datetime": "2023-09-03T03:50:00",
+    "time": "03:50",
     "artist": "Arca",
     "stage": "victoria"
   },
@@ -346,6 +395,7 @@
     "event_id": 50,
     "day": 6,
     "datetime": "2023-09-02T17:30:00",
+    "time": "17:30",
     "artist": "Ballena",
     "stage": "sunset"
   },
@@ -353,6 +403,7 @@
     "event_id": 51,
     "day": 6,
     "datetime": "2023-09-02T19:40:00",
+    "time": "19:40",
     "artist": "Judeline",
     "stage": "sunset"
   },
@@ -360,6 +411,7 @@
     "event_id": 52,
     "day": 6,
     "datetime": "2023-09-02T22:00:00",
+    "time": "22:00",
     "artist": "Ethel Cain",
     "stage": "sunset"
   },
@@ -367,6 +419,7 @@
     "event_id": 53,
     "day": 6,
     "datetime": "2023-09-03T01:05:00",
+    "time": "01:05",
     "artist": "Baiuca",
     "stage": "sunset"
   },
@@ -374,13 +427,15 @@
     "event_id": 54,
     "day": 6,
     "datetime": "2023-09-03T04:00:00",
-    "artist": "La Élite",
+    "time": "04:00",
+    "artist": "La �lite",
     "stage": "sunset"
   },
   {
     "event_id": 55,
     "day": 6,
     "datetime": "2023-09-02T17:00:00",
+    "time": "17:00",
     "artist": "Alvva",
     "stage": "caleta"
   },
@@ -388,6 +443,7 @@
     "event_id": 56,
     "day": 6,
     "datetime": "2023-09-02T19:30:00",
+    "time": "19:30",
     "artist": "Tom VR",
     "stage": "caleta"
   },
@@ -395,6 +451,7 @@
     "event_id": 57,
     "day": 6,
     "datetime": "2023-09-02T22:00:00",
+    "time": "22:00",
     "artist": "Axel Boman (Live)",
     "stage": "caleta"
   },
@@ -402,6 +459,7 @@
     "event_id": 58,
     "day": 6,
     "datetime": "2023-09-02T23:00:00",
+    "time": "23:00",
     "artist": "Ketiov b2b Moxie",
     "stage": "caleta"
   },
@@ -409,6 +467,7 @@
     "event_id": 59,
     "day": 6,
     "datetime": "2023-09-03T01:30:00",
+    "time": "01:30",
     "artist": "I.Jordan",
     "stage": "caleta"
   },
@@ -416,6 +475,7 @@
     "event_id": 60,
     "day": 6,
     "datetime": "2023-09-03T04:00:00",
+    "time": "04:00",
     "artist": "Helena Hauff",
     "stage": "caleta"
   }
