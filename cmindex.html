@@ -100,7 +100,24 @@
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <div id="jueves"></div>
+                <div id="jueves">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Hora</th>
+                        <th scope="col">Artista</th>
+                        <th scope="col">Escenario</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr ng-repeat="gig in jueves">
+                        <th scope="row">{{gig.time}}</th>
+                        <td>{{gig.artist}}</td>
+                        <td>{{gig.stage}}</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
           </div>
