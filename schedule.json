@@ -178,7 +178,7 @@
     "event_id": 26,
     "day": 5,
     "datetime": "2023-09-01T19:30:00",
-    "artist": "Cari�o",
+    "artist": "Cariño",
     "stage": "victoria"
   },
   {
@@ -311,14 +311,14 @@
     "event_id": 45,
     "day": 6,
     "datetime": "2023-09-02T17:40:00",
-    "artist": "Ni�os Luchando",
+    "artist": "Niños Luchando",
     "stage": "victoria"
   },
   {
     "event_id": 46,
     "day": 6,
     "datetime": "2023-09-02T19:30:00",
-    "artist": "Jos� Gonz�lez",
+    "artist": "José González",
     "stage": "victoria"
   },
   {
@@ -374,7 +374,7 @@
     "event_id": 54,
     "day": 6,
     "datetime": "2023-09-03T04:00:00",
-    "artist": "La �lite",
+    "artist": "La Élite",
     "stage": "sunset"
   },
   {
