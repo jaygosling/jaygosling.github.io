@@ -1,5 +1,16 @@
 var app = angular.module('myApp', []);
 app.controller('myCtrl', function($scope, $http) {
+    $scope.addFav = function(id) {
+        if (localStorage.getItem("myFavs")) {
+            let old = JSON.parse(localStorage.getItem("myFavs"));
+            myFavs.push(id);
+            localStorage.setItem("myFavs", JSON.stringify(old));            
+        } else {
+            let newItem = [id];
+            localStorage.setItem("myFavs", JSON.stringify(newItem));            
+        }
+        alert(id);
+    }
   $http.get("schedule.json")
   .then(function (response) {
       $scope.schedule = response.data;
