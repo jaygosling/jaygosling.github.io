@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mis juegos diarios</title>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <style>
+        body {
+            font-family: 'Verdana';
+        }
+
+        .bi-play-fill {
+            font-size: 25px;
+            color: cadetblue
+        }
+    </style>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+<body ng-app="myApp" ng-controller="myCtrl">
+    <div class="container-fluid vh-100 d-flex align-items-center justify-content-center">
+        <div>
+            <h3 class="text-center mb-5 display-3">Mis juegos diarios</h3>
+            <table class="table">
+                <tbody>
+                    <tr key=$index ng-repeat="x in games">
+                        <td>{{x.name}}</td>
+                        <td><i class="bi bi-play-fill" ng-click="handleClick($index)"></i></td>
+                        <td><i class={{playedStatus[$index]?checkBox:emptyBox}}></i></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<!-- MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('myCtrl', function ($scope, $http) {
+        $scope.emptyBox = "bi bi-square";
+        $scope.checkBox = "bi bi-check2-square";
+
+        let playedDate = localStorage.getItem("date")
+        let today = new Date();
+        today = today.toISOString().replace(/T.*/gi, '');
+        if (!playedDate || playedDate != today) {
+            localStorage.setItem("date", today);
+            localStorage.setItem("played", JSON.stringify([false, false, false, false, false, false]));
+        } else {
+            $scope.playedStatus = JSON.parse(localStorage.getItem("played"))
+        }
+        $scope.games = [{
+            name: "Framed",
+            gameUrl: "https://www.framed.wtf"
+        },
+        {
+            name: "La palabra del día",
+            gameUrl: "https://wordle.danielfrg.com"
+        },
+        {
+            name: "El mot del dia",
+            gameUrl: "https://gelozp.com/games/wordle/"
+        },
+        {
+            name: "Wordle",
+            gameUrl: "https://nytimes.com/games/wordle/"
+        },
+        {
+            name: "Boludle",
+            gameUrl: "https://www.boludle.com"
+        },
+        {
+            name: "Numble",
+            gameUrl: "https://www.numble.wtf"
+        }
+        ]
+        $scope.handleClick = function (index) {
+            $scope.playedStatus[index] = true;
+            localStorage.setItem("played", JSON.stringify($scope.playedStatus));
+            window.location.href = $scope.games[index]["gameUrl"];
+        }
+    });
+</script>
+
+</html>
