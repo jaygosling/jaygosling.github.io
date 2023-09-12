@@ -50,7 +50,7 @@
         $scope.emptyBox = "bi bi-square";
         $scope.checkBox = "bi bi-check2-square";
 
-        let playedDate = localStorage.getItem("date")
+        let playedDate = localStorage.getItem("date");
         let today = new Date();
         today = today.toISOString().replace(/T.*/gi, '');
         if (!playedDate || playedDate != today) {
@@ -61,7 +61,7 @@
         }
         $scope.games = [{
             name: "Framed",
-            gameUrl: "https://www.framed.wtf"
+            gameUrl: "https://framed.wtf"
         },
         {
             name: "La palabra del día",
