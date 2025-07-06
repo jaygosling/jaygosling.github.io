@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+.square {
+    margin: 10px;
+    background-color: #0594E3;
+    height: 150px;
+    width: 150px;
+    font-size: 100px;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    cursor: crosshair;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.background {
+    background-color: #0764FA;
+    width: 540px;
+    height: 540px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    position: fixed;
+    padding: 15px;
+    left: 50%;
+    top: 50%;
+    margin-left: -270px;
+    margin-top: -270px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #0594E3;
+    color: white;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+}
+
+body {
+    background-color: lightblue;
+    margin: 0px;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+.message-popup {
+    background-color: #05E6FD;
+    width: 330px;
+    height: 220px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 70px;
+    color: #0594E3;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -165px;
+    margin-top: -110px;
+    z-index: 2;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.who-won {}
