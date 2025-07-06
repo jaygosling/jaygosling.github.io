@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik&family=Sofia+Sans+Semi+Condensed:wght@500&display=swap');
+
+.title {
+    font-family: Pacifico;
+    font-size: 100px;
+    text-align: center;
+    color: #47B38F;
+}
+body {
+    background-color: aquamarine
+}
+#big-ball {
+    height: 200px;
+    width: 200px;
+    font-size: 75px;
+    padding: 40px;
+    background-color: #FFD466;
+    font-family: Rubik;
+
+}
+#balls {
+    height: 450px;
+    width: 500px;
+    margin-bottom: 10px;
+    font-family: Rubik;
+    text-align: center;
+
+}
+
+#pick-ball {
+    background-color: #47B38F;
+    font-size: 30px;
+    color: #7FFFD4;
+    padding: 10px 50px;
+}
+
+#recap-num {
+    font: Rubik;
+    font-size: 30px;
+}
+
+#last-numbers {
+    background-color: #ED99FF;
+    border-radius: 15px;
+    color: #7FFFD4;
+}
